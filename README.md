@@ -1,4 +1,4 @@
-# bytebuddy-example
+# ReportFunctionExecutedAgent
 
 ## Installation
 
@@ -6,7 +6,7 @@
 
 ```bash
 mvn clean install
-java -javaagent:advice-agent/target/advice-agent-1.0.jar -jar bytebuddy-client/target/bytebuddy-client-1.0.jar
+java -javaagent:report-agent/target/report-agent-1.0.jar -jar example-client/target/example-client-1.0.jar
 ```
 
 ### Running Tests
